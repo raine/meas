@@ -2,7 +2,7 @@
 
 Measure duration of execution of a command. Kind of like `time(1)`.
 
-```sh
+```
 $ meas -- ping localhost -c5
 00:00.004 │ PING localhost (127.0.0.1): 56 data bytes
 00:00.005 │ 64 bytes from 127.0.0.1: icmp_seq=0 ttl=64 time=0.053 ms
@@ -15,6 +15,12 @@ $ meas -- ping localhost -c5
 00:04.014 │ 5 packets transmitted, 5 packets received, 0.0% packet loss
 00:04.014 │ round-trip min/avg/max/stddev = 0.053/0.110/0.177/0.041 ms
 command completed in 4s 15ms
+```
+
+## install
+
+```sh
+$ cargo install meas
 ```
 
 ## one of these days (todo)
