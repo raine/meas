@@ -6,6 +6,7 @@ license = "MIT"
 homepage = "https://github.com/raine/meas"
 repository = "https://github.com/raine/meas"
 readme = "README.md"
+description = "A command-line tool for measuring duration of execution of a command"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
