@@ -1,6 +1,7 @@
 # meas
 
-Measure duration of execution of a command. Kind of like `time(1)`.
+Measure duration of execution of a command. Kind of like `time(1)`, but only
+real elapsed time.
 
 ```
 $ meas -- ping localhost -c5
